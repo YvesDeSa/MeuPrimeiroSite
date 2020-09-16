@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<title>A leitura é o caminho</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="sortcut icon" type="image/svg" href="img/icon.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav id="menu">
+		<ul class="nav">
+			<li class="Href"><a href="#Home">Inicio</a></li>
+			<li class="Href"><a href="#project">Projeto</a></li>
+			<li class="Href"><a href="#books">Livros</a></li>
+			<li class="Href"><a href="#places">Lugares</a></li>
+			<li class="Href"><a href="#forms">Formulário</a></li>
+			<li class="Href"><a href="#why">Importância</a></li>
+		</ul>
+	</nav>
+	<header id="Home" class="center">
+		<img src="img\logo.png" alt="logo de mulher sentada lendo livro">
+		<h1>A leitura é o caminho para igualdade na educação!</h1>
+		<br>
+		<h2>Um ato de grande importância para a aprendizagem do ser humano, a leitura, além de favorecer o aprendizado de conteúdos específicos, aprimora a escrita. <em>"...O hábito da leitura pode também funcionar como um exercício de fixação."</em></h2>
+	</header>
+	<main>
+		<section id="project">
+			<h3>Projeto</h3>
+			<p>Vivemos em uma sociedade grafocêntrica em que a prática da leitura e escrita são vistas como algo imprescindível para inclusão social. Percebe-se que a sociedade atual vive numa incessante busca por informações e conhecimentos, e a leitura acaba por se tornar um importante veículo para adquirir tais saberes. Porém, o que muitas vezes se observa é que nem todas as classes têm acesso aos bens culturais de maneira homogênea.</p>
+			<p>Um traço marcante da sociedade é a desigualdade social que gera consequentemente situações de injustiça, nas quais a minoria vive bem e a maioria luta com várias dificuldades para sobreviver.</p>
+			<p>O consumo de livros pelas famílias brasileiras concentra-se na classe alta: 90% das classes A e B têm mais de 10 livros em casa, enquanto na classe C essa quantidade corresponde a 66% e, nas classes D e E, a 42%.</p>
+			<p>Além disso, pesquisas monstram que estados da região Norte e Nordeste tem um número de livros a cada cem mil habitantes, bem inferior ao resto do país. E em todo o país ainda temos um número bem distinto dessa taxa de livros a cada cem mil habitantes das regiões metropolitanas e do interior.</p>
+			<p>Pensando nisso, o projeto <strong>A leitura é o caminho para igualdade na educação!</strong>, abre o caminho para você ajudar a diminuir essa desigualdade social, doando livros para essas regiões do nosso país. Então, com um pequeno gesto, venha conosco dinimuir a desigualdade do nosso país.</p>
+		</section>
+		<section id="books" class="center">
+			<h3>Tipos de livros</h3>
+			<div class="grid-3">
+				<article class="booktype">
+					<h4>Infantis</h4>
+					<img src="img\livro-infantil.png" alt="icone de livros Infantis">
+					<p> A literatura infantil é destinada especialmente às crianças entre dois a onze anos de idade.</p>
+				</article>
+				<article class="booktype">
+					<h4>Literatura</h4>
+					<img src="img\livro-literatura.png" alt="icone de livros de literatura">
+					<p>Como manifestação artística, tem por finalidade recriar a realidade a partir da visão de determinado autor com base em seus sentimentos.</p>
+				</article>
+				<article class="booktype">
+					<h4>Acadêmico</h4>
+					<img src="img\livro-academico.png" alt="icone de livros acadêmicos">
+					<p>Acadêmico é o texto resultado de algum dos diversos processos ligados à produção e transmissão de conhecimento no âmbito das instituições ensino.</p>
+				</article>
+			</div>
+		</section>
+		<section id="places" class="center">
+			<h3>Destinos das doações</h3>
+			<p>As doações serão encaminhada para instituições de ensino, unidade de internação para menores infratores, aldeias indígenas, entre outras, localizadas no interior dos estados da região selecionada.</p>
+			<div class="grid-5">
+				<article class="place">
+					<h4>Norte</h4>
+					<img src="img\norte.png" alt="mapa região norte">
+				</article>
+				<article class="place">
+					<h4>Nordeste</h4>
+					<img src="img\nordeste.png" alt="mapa região nordeste">
+				</article>
+				<article class="place">
+					<h4>Centro Oeste</h4>
+					<img src="img\centro-oeste.png" alt="mapa região centro oeste">
+				</article>
+				<article class="place">
+					<h4>Sudeste</h4>
+					<img src="img\sudeste.png" alt="mapa região sudeste">
+				</article>
+				<article class="place">
+					<h4>Sul</h4>
+					<img src="img\sul.png" alt="mapa região sul">
+				</article>
+			</div>
+		</section>
+		<section id="forms">
+			<form>
+				<h3>Seus dados para doações</h3>
+				<div class="input-block">
+					<label for="username">Nome</label>
+					<input type="name" name="name" required>
+				</div>
+				<div class="input-block">
+					<label for="useremail">Email</label>
+					<input type="email" name="email" required>
+				</div>
+				<div class="input-block">
+					<label for="bookname">Nome do livro</label>
+					<input type="name" name="bookname">
+				</div>
+				<div class="select-block">
+					<label for="booktype">Tipo de livro</label>
+					<select name="booktype">
+						<option value="0">Infantil</option>
+						<option value="1">Literatura</option>
+						<option value="2">Acadêmico</option>
+					</select>
+				</div>
+				<div class="select-block">
+					<label for="places">Destino do livro</label>
+					<select name="places">
+						<option value="0">Norte</option>
+						<option value="1">Nordeste</option>
+						<option value="2">Centro Oeste</option>
+						<option value="3">Sudeste</option>
+						<option value="4">Sul</option>
+					</select>
+				</div>
+				 <footer id="form-button">
+                	<p>
+             	       <img src="img\aviso.png" alt="Aviso importante">
+                    	Importante! <br>  Preencha todos os dados
+                	</p>
+                	<input class="button" type="submit"required>
+           		 </footer>
+			</form>
+		</section>
+	</main>
+	<footer id="why" class="center">
+		<h3>Importância da leitura</h3>
+		<div class="grid-2">
+			<div class="text">
+				<p>Dentro de livros existem vozes de homens e mulheres que atravessaram décadas e séculos para serem escutadas. O que falta para você deixar que estas falas passem por outras mãos?</p>
+			</div>
+			<div class="video">
+				<iframe  width="90%" height="315" src="https://www.youtube.com/embed/1UDJM2SWru8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
