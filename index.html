@@ -83,36 +83,46 @@
 		<section id="forms">
 			<form>
 				<h3>Seus dados para doações</h3>
-				<div class="input-block">
-					<label for="username">Nome</label>
-					<input type="name" name="name" required>
-				</div>
-				<div class="input-block">
-					<label for="useremail">Email</label>
-					<input type="email" name="email" required>
-				</div>
-				<div class="input-block">
-					<label for="bookname">Nome do livro</label>
-					<input type="name" name="bookname">
-				</div>
-				<div class="select-block">
-					<label for="booktype">Tipo de livro</label>
-					<select name="booktype">
-						<option value="0">Infantil</option>
-						<option value="1">Literatura</option>
-						<option value="2">Acadêmico</option>
-					</select>
-				</div>
-				<div class="select-block">
-					<label for="places">Destino do livro</label>
-					<select name="places">
-						<option value="0">Norte</option>
-						<option value="1">Nordeste</option>
-						<option value="2">Centro Oeste</option>
-						<option value="3">Sudeste</option>
-						<option value="4">Sul</option>
-					</select>
-				</div>
+				<fieldset>
+					<legend>Dados Pessoais</legend>
+					<div class="input-block">
+						<label for="username">Nome</label>
+						<input type="name" name="name" required>
+					</div>
+					<div class="input-block">
+						<label for="useremail">Email</label>
+						<input type="email" name="email" 	required>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Informações do livro</legend>
+					<div class="input-block">
+						<label for="bookname">Nome do livro</label>
+						<input type="name" name="bookname">
+					</div>
+					<div class="input-block">
+						<label for="bookauthor">Nome do escritor</label>
+						<input type="name" name="bookauthor">
+					</div>
+					<div class="select-block">
+						<label for="booktype">Tipo de livro</label>
+						<select name="booktype">
+							<option value="0">Infantil</option>
+							<option value="1">Literatura</option>
+							<option value="2">Acadêmico</option>
+						</select>
+					</div>
+					<div class="select-block">
+						<label for="places">Destino do livro</label>
+						<select name="places">
+							<option value="0">Norte</option>
+							<option value="1">Nordeste</option>
+							<option value="2">Centro Oeste</option>
+							<option value="3">Sudeste</option>
+							<option value="4">Sul</option>
+						</select>
+					</div>
+				</fieldset>
 				 <footer id="form-button">
                 	<p>
              	       <img src="img\aviso.png" alt="Aviso importante">
